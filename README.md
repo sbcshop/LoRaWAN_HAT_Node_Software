@@ -28,17 +28,17 @@ This Github provides getting started guide for LoRaWAN Raspberry Pi HAT Node.
   
 
 ### Hardware Overview:
-<img src="" width="" height=""> 
+<img src="https://github.com/sbcshop/LoRaWAN_HAT_Node_Software/blob/main/images/pinout.png" width="" height=""> 
 
 ### Interfacing Details:
 Following GPIO pins consumed when LoRaWAN HAT Node connected on Raspberry Pi,
 
-<img src="" width="440" height="345"> 
+<img src="https://github.com/sbcshop/LoRaWAN_HAT_Node_Software/blob/main/images/interfacing_details.png" width="662" height="402"> 
 
 ## Getting Started with Raspberry Pi LoRaWAN HAT Node 
  - For this connect HAT on Raspberry Pi and set jumper on RAK-Pi side as shown below. Also, make sure to connect suitable Antenna using SMA connector onboard.
 
-   <img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/RainUHFHAT_withPI.png" width="331" height="236">
+   <img src="https://github.com/sbcshop/LoRaWAN_HAT_Node_Software/blob/main/images/lorawan_HAT_Node_withPI.jpeg" width="" height="">
 
  * Download and setup your Raspberry Pi with OS, you can follow the Getting Started [Link](https://www.raspberrypi.com/documentation/computers/getting-started.html) to perform OS installation.
  * You will have to enable Serial and SPI interface in Raspberry Pi, find instruction [here](https://github.com/sbcshop/Pitalk_4G_HAT_Software/blob/main/Documents/Serial%20Interface%20Enable%20RPi.pdf) 
@@ -55,13 +55,19 @@ Following GPIO pins consumed when LoRaWAN HAT Node connected on Raspberry Pi,
     <img src="https://github.com/sbcshop/Rainy_UHF_HAT_Software/blob/main/images/output.png" width="480" height="288">
 
 ## RAK3172 Module Standalone 
+* You can access RAK3172 module directly. For this hat without Pi and also change jumper selection to USB-RAK side as shown below,
+  
+  <img src="https://github.com/sbcshop/LoRaWAN_HAT_Node_Software/blob/main/images/hat_node_standalone.png" width="375" height="280">
+
+* Connect device to PC/laptop using Type C. Now you can follow steps mentioned [here](https://github.com/sbcshop/LoRaWAN_Breakout_Software) to use RAK3172 module standalone like breakout for changing configuration or [Firmware update](https://github.com/sbcshop/LoRaWAN_Breakout_Software/blob/main/documents/Firmware%20Update%20Procedure%20with%20WisToolBox.pdf).
+  
 
 
 ## Resources
-  * [Schematic]()
-  * [Hardware Files]()
-  * [Getting Started with Raspberry Pi]()
-  * []()
+  * [Schematic](https://github.com/sbcshop/LoRaWAN_HAT_Node_Hardware/blob/main/Design%20Data/LORAWAN%20HAT%20NODE%20SCH.pdf)
+  * [Hardware Files](https://github.com/sbcshop/LoRaWAN_HAT_Node_Hardware)
+  * [Getting Started with Raspberry Pi](https://www.raspberrypi.com/documentation/computers/getting-started.html)
+  * [RAK3172 AT Command Reference ](https://docs.rakwireless.com/product-categories/software-apis-and-libraries/rui3/at-command-manual/)
   * [CH340 Driver Installation Guide](https://github.com/sbcshop/NFC_Module/blob/main/documents/CH340%20Driver%20installation%20steps.pdf)
     
 ## Related Products  
