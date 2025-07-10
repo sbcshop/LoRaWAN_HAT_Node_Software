@@ -48,7 +48,7 @@ Following GPIO pins consumed when LoRaWAN HAT Node connected on Raspberry Pi,
    ```
     <img src="https://github.com/sbcshop/LoRaWAN_HAT_Node_Software/blob/main/images/git_clone.png" width="535" height="121">
 
- * Open anyone [example](https://github.com/sbcshop/Rainy_UHF_HAT_Software/tree/main/examples) code in python IDE like IDLE, Thonny, etc. and run
+ * Open anyone [example](https://github.com/sbcshop/LoRaWAN_HAT_Node_Software/tree/main/examples) code in python IDE like IDLE, Thonny, etc. and run
 
     <img src="https://github.com/sbcshop/LoRaWAN_HAT_Node_Software/blob/main/images/run_examples.png" width="589" height="420">
 
